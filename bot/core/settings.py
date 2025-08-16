@@ -13,4 +13,9 @@ class Settings:
      secret_webhook_token = os.environ.get("SECRET_WEBHOOK_TOKEN")
      logging_format = os.environ.get("LOGGING_FORMAT")
      alert_chat = os.environ.get("ALERT_CHAT")
+     server_error_message = os.environ.get("SERVER_ERROR_MESSAGE")
      
+     
+     @classmethod
+     def webhook_url(cls) -> str:
+          return cls.webhook_domain + "/webhook/telegram"
