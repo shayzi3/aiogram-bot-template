@@ -1,1 +1,1 @@
-Aiogram bot template with Webhook, SQLAlchemy, Admin
+Aiogram bot template with Webhook, SQLAlchemy, Admin, Logging
