@@ -14,6 +14,8 @@ class Settings:
      logging_format = os.environ.get("LOGGING_FORMAT")
      alert_chat = os.environ.get("ALERT_CHAT")
      server_error_message = os.environ.get("SERVER_ERROR_MESSAGE")
+     uvicorn_port = int(os.environ.get("UVICORN_PORT"))
+     uvicorn_host = os.environ.get("UVICORN_HOST")
      
      
      @classmethod
