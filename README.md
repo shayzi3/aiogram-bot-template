@@ -61,7 +61,7 @@ python main.py
 ## About this template
 **All, that connected with bot in directory bot, everything else in directory infrastructure.**
 
-#### Alert System
+### Alert System
 Alert is a notification about something sent to a channel.
 
 > [!NOTE]
@@ -69,14 +69,14 @@ Alert is a notification about something sent to a channel.
 > occurs.
 
 
-#### Database models
+### Database models
 You can make interaction with database models by using pattern `Repository` or `mixins`.
 
 > [!NOTE]
 > You should create a folder in `bot/infrastructure/db` with name 
 > `repository or mixins`.
 
-#### Infrastructure
+### Infrastructure
 In folder `infrastructure` must be third party integrations.
 
 > [!NOTE]
@@ -88,7 +88,7 @@ In folder `infrastructure` must be third party integrations.
 In directory `http` must be integrations with other APIs. Also
 folder `http` having `webhook`.
 
-#### Logging
+### Logging
 For every service, which you want logging you must be
 create new `property` in class `FactoryBaseLogger`.
 
