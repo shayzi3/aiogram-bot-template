@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Aiogram bot template with Webhook, SQLAlchemy, Admin, Logging
 
 #### Why this template?
@@ -105,3 +106,6 @@ class FactoryBaseLogger:
             filename=f"data/logs/webhook/{self.__current_day()}.txt"
         )
 ```
+=======
+Aiogram bot template with Webhook, SQLAlchemy, Admin, Logging
+>>>>>>> ce19421d4bc71257ca1e8f482af7fca0f8011de5
