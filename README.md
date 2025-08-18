@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### Aiogram bot template with Webhook, SQLAlchemy, Admin, Logging
 
 #### Why this template?
@@ -65,7 +64,7 @@ python main.py
 #### Alert System
 Alert is a notification about something sent to a channel.
 
-[!NOTE]
+> [!NOTE]
 > Example: After executing the handler with an error, an alert 
 > occurs.
 
@@ -80,7 +79,7 @@ You can make interaction with database models by using pattern `Repository` or `
 #### Infrastructure
 In folder `infrastructure` must be third party integrations.
 
-[!NOTE]
+> [!NOTE]
 > If you want to add cache with Redis, you create
 > folder in infrastructure with name `cache`.
 > Also in directory infrastructure must be folder `brokers` for
@@ -106,6 +105,3 @@ class FactoryBaseLogger:
             filename=f"data/logs/webhook/{self.__current_day()}.txt"
         )
 ```
-=======
-Aiogram bot template with Webhook, SQLAlchemy, Admin, Logging
->>>>>>> ce19421d4bc71257ca1e8f482af7fca0f8011de5
